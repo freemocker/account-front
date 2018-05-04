@@ -1,0 +1,25 @@
+.yzm-img {
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+}
+
+textarea.required, select.required, input[type="text"].required {
+    border-color: #f2a696;
+}
+
+.item-icon-right {
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .item-icon-right {
+        display: block;
+    }
+}
+
+@media (max-width: 769px) {
+    .item-icon-right {
+        display: none;
+    }
+}
